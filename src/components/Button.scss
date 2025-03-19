@@ -1,0 +1,25 @@
+.StartButton {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  margin-top: 3rem;
+}
+
+.StartButton:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.StartButton:focus {
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
